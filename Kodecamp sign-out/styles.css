@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  .container {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+  }
+  .form-section,
+  .image-section {
+    padding: 20px;
+  }
+  .form-section {
+    width: 1000%;
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .logo img {
+    width: 60px; /* Adjust width to make the logo smaller */
+    height: auto; /* Maintain aspect ratio */
+  }
+  h1 {
+    font-size: 24px;
+    color: #086db8;
+    margin-top: 60px; /* Adjust margin to accommodate the logo */
+  }
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px; /* Add some bottom margin */
+  }
+  .form-group {
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 10px; /* Adjust margin to add space between labels */
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .gender {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .gender label {
+    margin: 0px;
+  }
+  .gender input {
+    margin-right: 8px;
+  }
+  .btn {
+    background-color: #086db8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-left: 29vh;
+    width: 222px;
+    height: 40px;
+  }
+  .image-section {
+    background-image: url("/images/pexels-andres-ayrton-6578392\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 990vh;
+  }
+  .image-section .top-text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .image-section .bottom-text {
+    margin-top: 72vh;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
